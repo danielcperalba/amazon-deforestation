@@ -1,47 +1,41 @@
-# Visualização do Desmatamento na Amazônia
+# Visualization of Deforestation in the Amazon
 
-## Descrição
-Este projeto tem como objetivo visualizar a evolução do desmatamento na Amazônia Legal por meio de mapas interativos e dashboards informativos. Ele utilizará **Geopandas** e **Fiona** para manipulação de dados geoespaciais e **Folium** para a geração de mapas interativos. Além disso, será desenvolvido um **Dashboard no Power BI** para exibir a taxa de desmatamento na região.
+## Description
+This project aims to visualize the evolution of deforestation in the Legal Amazon through interactive maps and informative dashboards. It will use **Geopandas** and **Fiona** to manipulate geospatial data and **Folium** to generate interactive maps. In addition, a **Dashboard in Power BI** will be developed to display the deforestation rate in the region.
 
-## Funcionalidades
-- Exibição da Amazônia Legal com estados, limites, municípios, unidades de conservação e terras indígenas.
-- Mapa interativo utilizando **Folium**.
-- Implementação de um **controle deslizante** para visualizar a evolução do desmatamento ao longo do tempo.
-- Análise da taxa de desmatamento através de um **dashboard no Power BI**.
+## Features
+- Display of the Legal Amazon with states, boundaries, municipalities, conservation units and indigenous lands.
+- Interactive map using **Folium**.
+- Implementation of a **slider** to visualize the evolution of deforestation over time.
+- Analysis of the deforestation rate through a **dashboard in Power BI**.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Technologies Used 
 - **Python**: Geopandas, Fiona, Folium
-- **Power BI**: Para visualização e análise dos dados
+- - **Power BI**: For data visualization and analysis
 
-## Fonte de Dados
-Os dados utilizados no projeto são obtidos do [TerraBrasilis](http://terrabrasilis.dpi.inpe.br/), que fornece informações detalhadas sobre o desmatamento na região amazônica.
+## Data Source
+The data used in the project are obtained from [TerraBrasilis](http://terrabrasilis.dpi.inpe.br/), which provides detailed information on deforestation in the Amazon region.
 
-## Estrutura do Projeto
+## Project Structure
 ```bash
-/Projeto-Desmatamento-Amazonia
-├── data/               # Arquivos de dados (shapefiles, geojson, etc.)
-├── notebooks/          # Notebooks Jupyter para exploração e análise dos dados
-├── scripts/            # Scripts Python para processamento de dados e geração de mapas
-├── dashboards/         # Arquivos do Power BI
-├── README.md           # Documentação do projeto
+/Project-Deforestation-Amazon
+├── data/ # Data files (shapefiles, geojson, etc.)
+├── notebooks/ # Jupyter notebooks for data exploration and analysis
+├── scripts/ # Python scripts for data processing and map generation
+├── dashboards/ # Power BI files
+├── README.md # Project documentation
 ```
 
-## Como Usar
-1. **Baixar a base de dados** do TerraBrasilis.
-2. **Processar os dados geoespaciais** com Geopandas e Fiona.
-3. **Gerar os mapas interativos** com Folium.
-4. **Visualizar a evolução do desmatamento** utilizando o controle deslizante.
-5. **Explorar os dashboards** desenvolvidos no Power BI.
+## How to Use
+1. **Download the TerraBrasilis database**.
+2. **Process geospatial data** with Geopandas and Fiona.
+3. **Generate interactive maps** with Folium.
+4. **Visualize the evolution of deforestation** using the slider.
+5. **Explore the dashboards** developed in Power BI.
 
-## Próximos Passos
-- [ ] Baixar e processar os dados do TerraBrasilis.
-- [ ] Implementar o carregamento e manipulação dos dados geoespaciais.
-- [ ] Criar a interface interativa do mapa com Folium.
-- [ ] Construir o dashboard no Power BI.
-
-## Contribuição
-Caso queira contribuir com o projeto, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
-
----
-> Este projeto visa aumentar a conscientização sobre o desmatamento na Amazônia e fornecer insights valiosos para pesquisadores e tomadores de decisão.
+## Next Steps
+- [ ] Download and process data from TerraBrasilis.
+- [ ] Implement the loading and manipulation of geospatial data.
+- [ ] Create the interactive map interface with Folium.
+- [ ] Build the dashboard in Power BI.
 
