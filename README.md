@@ -11,7 +11,7 @@ This project aims to visualize the evolution of deforestation in the Legal Amazo
 
 ## 🛠 Technologies Used 
 - **Python**: Geopandas, Fiona, Folium
-- - **Power BI**: For data visualization and analysis
+- **Power BI**: For data visualization and analysis
 
 ## Data Source
 The data used in the project are obtained from [TerraBrasilis](http://terrabrasilis.dpi.inpe.br/), which provides detailed information on deforestation in the Amazon region.
